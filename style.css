@@ -1,0 +1,77 @@
+h1{
+  padding: 30px;
+  display: flex;
+  justify-content: center; 
+  font-size: 30px;
+  font-family: sans-serif;
+}
+body{
+  background-color: rgb(204, 204, 204);
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.title{
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-align: center;
+  flex-direction: column; 
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  grid-auto-rows: 1fr;
+  height: 75vh;
+}
+
+.grid-item {
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  font-family: sans-serif;
+  height: 160px;
+}
+
+.grid-item:nth-child(1) {
+  
+  grid-column: span 2;
+  background-color: rgb(139, 116, 12);
+
+}
+.grid-item:nth-child(2) {
+  background-color: rgb(255, 214, 83);
+
+}
+.grid-item:nth-child(3) {
+  background-color: rgb(255, 214, 83);
+}
+.grid-item:nth-child(4) {
+  grid-column: span 3;
+  background-color: rgb(0, 87, 128);
+}
+.grid-item:nth-child(5) {
+  background-color: rgb(255, 214, 83);
+}
+.grid-item:nth-child(6) {
+  grid-column: span 4;
+  background-color: rgb(128, 0, 128);
+}
+.grid-item:nth-child(7) {
+  grid-column: span 1;
+  background-color: rgb(255, 214, 83);
+}
+.grid-item:nth-child(8) {
+  background-color: rgb(255, 214, 83);
+}
+.grid-item:nth-child(9) {
+  grid-column: span 2;
+  background-color: rgb(118, 175, 185);
+}
